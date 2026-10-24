@@ -15,37 +15,37 @@
 <main>
 <h1>Privacy policy for GroceryList</h1>
 <p class="muted">Effective October 24, 2026</p>
-<p>GroceryList is an Android app made by DVGApps. This page explains what the app does with your information. In short: <strong>I do not collect, receive or store your data.</strong> The app has no accounts, no ads and no analytics of its own. A few optional features contact outside services, and those are listed below so you can decide whether to use them.</p>
+<p>GroceryList is an Android app made by DVGApps. This page explains what the app does with your information. In short: <strong>I do not collect, receive or store your data.</strong> The app has no accounts, no ads and no analytics of its own. Your data is stored on your phone, and, if you have Google&rsquo;s backup turned on, Android may also copy it to your own Google account (see <a href="#backups">Backups</a>). A few optional features contact outside services, and those are listed below so you can decide whether to use them.</p>
 
 <h2>Who is responsible</h2>
 <p>DVGApps (Diedrich Guenther), an independent developer. Questions about this policy: <a href="mailto:dvgapps.support@gmail.com">dvgapps.support@gmail.com</a>.</p>
 
-<h2>What stays on your phone</h2>
-<p>Everything you enter, including items, prices, photos, stores, aisle layouts, lists, sets and settings, is stored on your phone in the app's private storage. I never receive it. I run no server for this app. If Google&rsquo;s backup is switched on in your phone&rsquo;s settings, Android may also keep a copy of this data in your Google account (see Android&rsquo;s automatic backup, below).</p>
+<h2>Where your data is stored</h2>
+<p>Everything you enter, including items, prices, photos, stores, aisle layouts, lists, sets and settings, is stored on your phone in the app&rsquo;s private storage. I never receive it, and I run no server for this app. If Google&rsquo;s backup is on, Android may also keep a copy in your own Google account (see <a href="#backups">Backups</a>).</p>
 
 <h2>Outside services the app contacts, only when you use a feature</h2>
-<p>These requests happen only when you use the feature named. They go straight from your phone to the service, not through me. Like any internet request, the service can see your phone's IP address.</p>
+<p>These requests happen only when you use the feature named. They go straight from your phone to the service, not through me. Like any internet request, the service can see your phone's IP address. Requests to Open Food Facts and Nominatim also carry the app's name and version (GroceryListApp/1.0), which those services ask every app to send.</p>
 <div class="tablewrap"><table>
 <thead><tr><th>Feature</th><th>Service</th><th>What is sent</th></tr></thead>
 <tbody>
-<tr><td>Scanning or typing a barcode in the item editor</td><td><a href="https://world.openfoodfacts.org/privacy">Open Food Facts</a></td><td>The barcode number only. The app then downloads the product's name, brand, size and photo, if the database has them, and saves them on your phone.</td></tr>
+<tr><td>Scanning a barcode in the item editor</td><td><a href="https://world.openfoodfacts.org/privacy">Open Food Facts</a></td><td>The barcode number only. The app then downloads the product's name, brand, size and photo, if the database has them, and saves them on your phone.</td></tr>
 <tr><td>Searching for an address on a store's location screen</td><td><a href="https://osmfoundation.org/wiki/Privacy_Policy">OpenStreetMap Nominatim</a></td><td>The address text you typed, and your phone's language setting.</td></tr>
 <tr><td>Opening a store's map</td><td><a href="https://openfreemap.org/">OpenFreeMap</a></td><td>Requests for the map tiles, fonts and style for the area you are viewing. The app adds no identifier of its own.</td></tr>
-<tr><td>Scanning a barcode with the camera</td><td><a href="https://developers.google.com/ml-kit/android-data-disclosure">Google Play services (ML Kit code scanner)</a></td><td>The scanner screen is provided by Google Play services, which processes the camera image. The app receives only the scanned number. Google may collect its own technical diagnostics under <a href="https://policies.google.com/privacy">Google's privacy policy</a>.</td></tr>
+<tr><td>Scanning a barcode with the camera</td><td><a href="https://developers.google.com/ml-kit/android-data-disclosure">Google Play services (ML Kit code scanner)</a></td><td>The scanner screen is provided by Google Play services, which processes the camera image. The app receives only the scanned number. Google Play services may also download the scanner component when the app is installed, before you use it. Google may collect its own technical diagnostics under <a href="https://policies.google.com/privacy">Google's privacy policy</a>.</td></tr>
 </tbody></table></div>
 <p>I do not control these services and cannot say what they do with the requests they receive. Follow the links for their policies. If you never scan a barcode, search for an address or open a map, the app makes none of these requests.</p>
 
 <h2>Location</h2>
-<p>Location is optional and off unless you turn on &ldquo;Auto-select nearby store&rdquo; or tap &ldquo;use my current location&rdquo; for a store. The app reads your position through Android, compares it with the store positions saved on your phone, and does not send it anywhere. The coordinates of stores you save are kept on your phone only. Your phone's own location services are part of Android and are governed by Google's and your device maker's terms.</p>
+<p>Location is optional and off unless you turn on &ldquo;Auto-select nearby store&rdquo; or tap &ldquo;use my current location&rdquo; for a store. The app reads your position through Android, compares it with the store positions saved on your phone, and does not send it anywhere. The coordinates of stores you save are kept in the app&rsquo;s database on your phone, and are included in any backup of the app&rsquo;s data (see <a href="#backups">Backups</a>). Your phone's own location services are part of Android and are governed by Google's and your device maker's terms.</p>
 
 <h2>Camera and photos</h2>
 <p>To add a photo to an item, the app opens your phone's camera app or photo picker. The photo you choose is copied into the app's private storage. The app does not request camera or storage permission.</p>
 
-<h2>Backups</h2>
+<h2 id="backups">Backups</h2>
 <h3>Backups you make</h3>
-<p>&ldquo;Backup Now&rdquo; saves a file to a location that you choose. &ldquo;Restore from a backup&rdquo; reads a file you choose. The app never uploads a backup anywhere on its own. Where you keep the file is up to you.</p>
+<p>In <strong>Settings &rarr; Database Management</strong>, &ldquo;Backup Now&rdquo; saves a file to a location that you choose, and &ldquo;Restore from a backup&rdquo; reads a file you choose. The app never uploads a backup anywhere on its own. Where you keep the file is up to you.</p>
 <h3>Android&rsquo;s automatic backup</h3>
-<p>If Google&rsquo;s backup is switched on in your phone&rsquo;s settings, Android may copy the app&rsquo;s data, including photos, to your Google account and restore it when you reinstall the app or set up a new phone. That is done by the operating system, not by me, and I do not receive it. You can turn it off, and delete the copies, in your phone&rsquo;s and Google account&rsquo;s backup settings. A backup file you make yourself with &ldquo;Backup Now&rdquo; is still the surest way to get your items, stores and lists back.</p>
+<p>If Google&rsquo;s backup is switched on in your phone&rsquo;s settings, Android may copy the app&rsquo;s data, including photos, to your own Google account. If you reinstall the app or set up a new phone, Android can restore that copy. This is done by the operating system, not by me, and I do not receive it. It is governed by Google&rsquo;s terms and your Google account settings, and you can turn it off or manage it in your phone&rsquo;s backup settings. A backup file saved with &ldquo;Backup Now&rdquo; is still the surest way to get your items, stores and lists back.</p>
 
 <h2>What I do not do</h2>
 <ul>
@@ -59,7 +59,7 @@
 <p>GroceryList is a general-purpose app and is not directed at children. I do not knowingly collect information from anyone, including children.</p>
 
 <h2>Your rights</h2>
-<p>Because I hold none of your data, there is nothing for me to access, correct or delete. You control your data on your phone: you can remove items inside the app, use &ldquo;Reset all data to stock&rdquo; in Settings, or uninstall the app. If Google&rsquo;s backup is on, reinstalling may bring your data back; to remove that copy too, delete the app&rsquo;s backup in your Google account&rsquo;s backup settings. Backup files you saved and any copy made by Android&rsquo;s backup are yours to delete.</p>
+<p>Because I hold none of your data, there is nothing for me to access, correct or delete. You control your data: you can remove items inside the app and use &ldquo;Reset all data to stock&rdquo; in Settings &rarr; Database Management. Uninstalling the app removes its data from your phone, but if Google&rsquo;s backup is on, a copy may remain in your Google account and can come back if you reinstall. To remove it, manage or delete the app&rsquo;s backup in your phone&rsquo;s Google backup settings. Backup files you saved yourself are yours to delete.</p>
 
 <h2>Changes to this policy</h2>
 <p>If the app changes in a way that affects this policy, for example when purchases are added, I will update this page and its date before the change reaches you.</p>
